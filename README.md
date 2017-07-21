@@ -8,7 +8,8 @@ This respository contains my solutions to all of the puzzles in Human Resource M
 
 The files in this repository are split into four separate folders: *Orange*, *Blue*, *Green*, and *Achievements*. The colored folders contain the solutions to each of their matching puzzles. The solution files are named according to the following format:
 
-										(N)-(Name)<-Speed | -Size>.asm  
+	(N)-(Name)<-Speed | -Size>.asm  
+	
 **N**: Number of the puzzle  
 **Name**: Name of the puzzle  
 **-Speed**: Optimum assembly for the speed challenge  
@@ -16,7 +17,7 @@ The files in this repository are split into four separate folders: *Orange*, *Bl
 
 The  *Achievements* folder is slightly different. This folder contains the solutions to the Steam achievements for this game. That folder has a file detailing what puzzle the solution should be executed on in order to earn the achievement. These files are named according to this format: 
 
-										(N)-(Achievement).asm
+	(N)-(Achievement).asm
 
 **N**: Number of the puzzle  
 **Achievement**: Name of the Steam achievement
