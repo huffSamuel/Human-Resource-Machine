@@ -11,28 +11,29 @@
     COPYTO   18
     BUMPUP   18
 a:
-    INBOX   
-    COPYTO   19
-    SUB      2
-    JUMPZ    e
-    COPYFROM 19
-    SUB      4
-    JUMPZ    f
-    COPYFROM 19
-    SUB      1
-    JUMPZ    g
-    COPYFROM 18
 b:
 c:
 d:
+    INBOX   
+    COPYTO   19
+    SUB      4
+    JUMPN    f
+    JUMPZ    e
+    COPYFROM 16
     OUTBOX  
     JUMP     a
 e:
-    COPYFROM 16
-    JUMP     c
-f:
     COPYFROM 15
-    JUMP     b
+    OUTBOX  
+    JUMP     d
+f:
+    COPYFROM 19
+    SUB      0
+    JUMPN    g
+    COPYFROM 18
+    OUTBOX  
+    JUMP     c
 g:
     COPYFROM 17
-    JUMP     d
+    OUTBOX  
+    JUMP     b
