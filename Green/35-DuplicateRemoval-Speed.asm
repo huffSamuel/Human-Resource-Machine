@@ -7,9 +7,8 @@
     INBOX   
     JUMP     e
 a:
-b:
-    COPYFROM 14
     COPYTO   10
+b:
     INBOX   
     COPYTO   12
 c:
@@ -21,9 +20,11 @@ c:
     COPYFROM 12
     JUMP     c
 d:
+    COPYTO   10
     COPYFROM 12
 e:
     COPYTO   [11]
     OUTBOX  
     BUMPUP   11
     JUMP     b
+

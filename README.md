@@ -54,7 +54,7 @@ The  *Achievements* folder is slightly different. This folder contains the solut
 | String Reverse | [10/11](Green/31-StringReverse.asm) | [121/122](Green/31-StringReverse.asm) |
 | Inventory Report | [16/16](Green/32-InventoryReport-Size.asm) | [46/393](Green/32-InventoryReport-Speed.asm) |
 | Vowel Incinerator | [13/13](Green/34-VowelIncinerator.asm) | [323/323](Green/34-VowelIncinerator.asm) |
-| Duplicate Removal | [21/17](Green/35-DuplicateRemoval.asm) | [170/167](Green/35-DuplicateRemoval.asm) |
+| Duplicate Removal | [21/17](Green/35-DuplicateRemoval.asm) | [159/167](Green/35-DuplicateRemoval.asm) |
 | Alphabetizer | NA | NA |
 | Scavenger Chain | [8/8](Green/37-ScavengerChain.asm) | [63/63](Green/37-ScavengerChain.asm) |
 | Digit Exploder | NA | NA |
